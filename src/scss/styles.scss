@@ -1,3 +1,29 @@
-// Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;;
+}
+
+// header{
+
+// }
+
+main{
+ display: flex;
+ flex-direction: column;
+ background-color: #669BBC;
+
+}
+
+footer{
+    display: flex;
+    border-top: 1px solid rgb(220, 13, 13);
+    text-align: center;
+    padding: 30px 10px;
+    line-height: 1.6em;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+}
