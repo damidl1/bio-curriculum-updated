@@ -18,6 +18,8 @@ header{
     background-color: #669BBC;
     color: white;
     padding: 10px;
+    border-radius: 8px;
+    
 }
 
 main{
@@ -26,14 +28,11 @@ main{
  background-color: #F8F9FA;
  padding: 20px;
  border-radius: 10px;
+ height: 70vh;
 
 }
 
 
-header h1{
-    width: 100%;
-
-}
 
 
 a {
@@ -55,7 +54,7 @@ footer{
     width: 100%;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-top: 1px solid rgb(220, 13, 13);
 }
 
