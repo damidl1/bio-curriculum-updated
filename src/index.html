@@ -4,69 +4,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap w/ Vite</title>
+  <title>La mia biografia</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark">
-    <!--<nav class="navbar navbar-expand-lg bg-light"> -->
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">La mia biografia</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./curriculum.html">Curriculum</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">Gallery</a>
-          </li>
-        </ul>
-        
+  <div class="container mx-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <!--<nav class="navbar navbar-expand-lg bg-light"> -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">La mia biografia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./curriculum.html">Curriculum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+          </ul>
+
+        </div>
       </div>
-    </div>
-  <!-- </nav>  -->
-</nav>
-<header>
-  <h1>Damiano Di Lionardo</h1>
-</header>
-<main>
-  <img src="./assets/photo_2021-10-31_01-31-26.jpg" alt="Damiano Di Lionardo" width="400px">
-  <p>Ciao a tutti! <br>
-      Sono <strong>Damiano</strong>, ho 30 anni e sono qui perchè vorrei imparare tutto quello che riguarda la
-      programmazione web,
-      mi affascina pensare che si possa creare da zero un sito web pieno di funzionalità più o meno complesse, che
-      possono essere utili a tante persone <br>
-      Mi piace imparare e scoprire cose nuove e ho anche tanti altri interessi, alcuni dei quali sono:
-  <ul>
-      <li><strong>La fotografia</strong></li>
-      <li><strong>Gli Animali</strong></li>
-      <li><strong>Viaggiare</strong></li>
-      <li><strong>Ascoltare la musica</strong></li>
-      <li><strong>Andare in bici</strong></li>
-  </ul>
-  </p>
-  <p>
-      Mi sono diplomato nel 2013 all'istituto professionale per l'industria e l'artigianato come <strong>Tecnico
-          delle industrie elettroniche</strong> e dopo avere svolto diversi lavori
-      ho deciso di iniziare ad imparare qualcosa nel campo dell'informatica. <br>
-      Sono entrato nel mondo della programmazione grazie ad un mio amico e mi sono da subito appassionato,
-      spero davvero che questo percorso possa trasformare presto questa mia passione in un lavoro!
-  </p>
-</main>
-<footer>
-  Contatti:
+      <!-- </nav>  -->
+    </nav>
+    <header class="text-center mt-5">
+      <h1>Damiano Di Lionardo</h1>
+    </header>
+    <main class="mt-4">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/photo_2021-10-31_01-31-26.jpg" alt="Damiano Di Lionardo" width="400px">
+        </div>
+        <div class="col-md-6">
+          <p>Ciao a tutti! <br>
+            Sono <strong>Damiano</strong>, ho 30 anni e sono qui perchè vorrei imparare tutto quello che riguarda la
+            programmazione web,
+            mi affascina pensare che si possa creare da zero un sito web pieno di funzionalità più o meno complesse, che
+            possono essere utili a tante persone <br>
+            Mi piace imparare e scoprire cose nuove e ho anche tanti altri interessi, alcuni dei quali sono:
+          <ul>
+            <li><strong>La fotografia</strong></li>
+            <li><strong>Gli Animali</strong></li>
+            <li><strong>Viaggiare</strong></li>
+            <li><strong>Ascoltare la musica</strong></li>
+            <li><strong>Andare in bici</strong></li>
+          </ul>
+          </p>
+          <p>
+            Mi sono diplomato nel 2013 all'istituto professionale per l'industria e l'artigianato come <strong>Tecnico
+              delle industrie elettroniche</strong> e dopo avere svolto diversi lavori
+            ho deciso di iniziare ad imparare qualcosa nel campo dell'informatica. <br>
+            Sono entrato nel mondo della programmazione grazie ad un mio amico e mi sono da subito appassionato,
+            spero davvero che questo percorso possa trasformare presto questa mia passione in un lavoro!
+          </p>
+        </div>
+      </div>
 
-  <button class="button"><a href="mailto:damidlcommercial@gmail.com">Mandami una mail</a></button>
-  <button class="button"><a href="tel:+3933330000">Fammi uno squillo</a></button>
-
-</footer>
+    </main>
+    <footer class="text-center mt-4">
+      <p>Contatti:</p>
   
+      <button class="btn btn-dark"><a href="mailto:damidlcommercial@gmail.com">Mandami una mail</a></button>
+      <button class="btn btn-dark"><a href="tel:+3933330000">Fammi uno squillo</a></button>
+  
+    </footer>
+  </div>
+
 </body>
 <script type="module" src="./js/main.js"></script>
+
 </html>

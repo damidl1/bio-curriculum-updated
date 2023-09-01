@@ -6,24 +6,144 @@
     font-family: 'Playfair Display', serif;;
 }
 
-// header{
+.container {
+    padding: 20px;
+}
 
-// }
+body{
+    background-color: #D6D9CE;
+}
+
+header{
+    background-color: #669BBC;
+    color: white;
+    padding: 10px;
+}
 
 main{
- display: flex;
- flex-direction: column;
- background-color: #669BBC;
+//  display: flex;
+//  flex-direction: column;
+ background-color: #F8F9FA;
+ padding: 20px;
+ border-radius: 10px;
 
 }
 
+
+header h1{
+    width: 100%;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
 footer{
-    display: flex;
-    border-top: 1px solid rgb(220, 13, 13);
-    text-align: center;
-    padding: 30px 10px;
-    line-height: 1.6em;
-    font-size: 0.8em;
+     // display: flex;
+    // border-top: 1px solid rgb(220, 13, 13);
+    // text-align: center;
+    // padding: 30px 10px;
+    // line-height: 1.6em;
+    // font-size: 0.8em;
+    // background-color: black;
+    // color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
     color: white;
+    padding: 10px;
+    border-top: 1px solid rgb(220, 13, 13);
+}
+
+.btn{
+    margin-right: 10px;
+    
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+
+// @media (max-width: 992px){
+//     header{
+//         padding: 30px;
+
+//     }
+
+//     main{
+//         padding: 15px;
+//     }
+//     footer{
+//         padding: 15px;
+//     }
+// }
+
+
+
+@media (max-width: 1080px){
+    header{
+        padding: 20px;
+    }
+    main{
+        padding: 10px;
+    }
+    footer{
+        padding: 10px;
+    }
+    
+    main p{
+        font-size: 14px;
+    }
+
+    main ul {
+        font-size: 14px;
+       
+    }
+
+    main img{
+        max-width: 100%;
+        height: auto;
+    }
+   
+}
+
+
+
+@media (max-width: 460px) {
+    header{
+        padding: 20px;
+        
+    }
+    main{
+        padding: 10px;
+        
+    }
+    footer{
+        padding: 10px;
+       
+    }
+
+    main p{
+        font-size: 14px;
+    }
+
+    main ul {
+        font-size: 14px;
+       
+    }
+
+    main img{
+        max-width: 100%;
+        height: auto;
+    }
+   
+   
 }
