@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <title>Bio-Curriculum</title>
 </head>
 <body>
-    <img src="./assets/photo_2021-10-31_01-31-26.jpg" class="img-thumbnail" alt="my photo">
-    <nav class="navbar navbar-dark bg-dark">
-        <!--<nav class="navbar navbar-expand-lg bg-light"> -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Curriculum</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,14 +20,70 @@
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Fotogallery</a>
+                <a class="nav-link active" aria-current="page" href="./gallery.html">Fotogallery</a>
               </li>
             </ul>
-           
+            
           </div>
         </div>
-      <!-- </nav>  -->
-    </nav>
+   </nav>
+   <header class="text-center mt-5">
+    <h1 class="curriculum-h1">Il mio Curriculum Vitae</h1>
+   </header>
+   <main id="main-curriculum" class="mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <img id="curriculum-img" src="./assets/photo_2021-10-31_01-31-26.jpg" class="img-thumbnail" alt="my photo">
+      </div>
+      <div class="col-md-6">
+        <em>
+          <p class="paragraph">Istruzione:</p>
+      </em>
+
+<h3>2013 -- Diploma istituto professionale per l'industria e l'artigianato, indirizzo tecnico elettronico. </h3>
+<hr>
+<h3>2023 -- Corso per programmatore front end presso Axìa Formazione della durata di 600 ore su HTML, CSS, Javascript e Angular</h3>
+<hr>
+<ul>
+  <em>
+      <p class="paragraph" >Esperienze lavorative:</p>
+  </em>
+  <li>
+      <h3>Da agosto 2013 a maggio 2017 -- Aiuto tecnico presso impresa di famiglia "Tecnocucine": </h3>
+  </li>
+  <p>Assistenza nella manutenzione di elettrodomestici alberghieri.</p>
+  </h3>
+
+  <li>
+      <h3> Da gennaio 2019 a dicembre 2019 -- Volontario Servizio Civile Nazionale: </h3>
+  </li>
+  <p>Presso il municipio del Comune di Taggia, settore ambientale.</p>
+
+  <h3>
+      <li> Da novembre 2021 a gennaio 2022 -- Tirocinante presso Euronics: </li>
+  </h3>
+
+  <p>Uso di macchinari e attrezzature per la movimentazione della merce, gestione magazzino e addetto alle
+      vendite.</p>
+
+  <li>
+      <h3>
+          Da giugno 2022 a settembre 2022 -- Contratto di lavoro a chiamata presso Pam ed Eurospin:
+      </h3>
+      <p> Aiuto commesso, cassiere e scaffalista.</p>
+  </li>
+</ul>
+<hr>
+      </div>
+    </div>
+   </main>
+   <footer id="curriculum-footer" class="text-center mt-4">
+    <p>Contatti:</p>
+
+    <button class="btn btn-dark"><a href="mailto:damidlcommercial@gmail.com">Mandami una mail</a></button>
+    <button class="btn btn-dark"><a href="tel:+3933330000">Fammi uno squillo</a></button>
+    <p>Created by damidl ©, 2023</p>
+  </footer>
 </body>
 <script type="module" src="./js/main.js"></script>
 </html>

@@ -32,13 +32,56 @@ main{
 
 }
 
+#curriculum-footer{
+    padding: 3px;
+}
 
 
+#curriculum-img{
+    max-width: 600px;
+}
+
+.curriculum-h1{
+    margin-top: 20px;
+}
+
+#curriculum-nav{
+    margin-bottom: 80px;
+
+}
+
+#main-curriculum{
+    background-color: #F8F9FA;
+    padding: 20px;
+    border-radius: 10px;
+    height: 70vh;
+}
+
+p {
+    margin: 0px;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
+}
 
 a {
     text-decoration: none;
 }
 
+.curriculum-ul {
+    padding: 10px;
+    margin: 0px;
+    font-size: small;
+}
+
+.paragraph{
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main h3 {
+    font-size: 20px;
+}
 footer{
      // display: flex;
     // border-top: 1px solid rgb(220, 13, 13);
